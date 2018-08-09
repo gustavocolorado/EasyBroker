@@ -20,35 +20,30 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
+          <a class="nav-link" href="#">Rentar</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
+          <a class="nav-link" href="#">Comprar</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Propietarios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">¿Quiénes somos?</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contacto</a>
         </li>
       </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
     </div>
   </nav>
+
   <section class="hero-container">
     <div class="title-container">
-      <h1 class="title">El mejor lugar para buscar <span class="highlight-text">hogar</span> en la ciudad</h1>
+      <h1 class="title">El mejor lugar para buscar <span class="highlight-text-light">hogar</span> en la ciudad</h1>
     </div>
     <div class="search-container">
       <form class="search-form">
@@ -57,44 +52,66 @@
       </form>
     </div>
   </section>
+
+  <!-- Se especifica que comienza con el H2 para poder definir nuevo contenido, basado en accesibilidad -->
+
   <section>
     <h2 class="subtitle">Los depas mas buscados</h2>
-    <a class="links" href="#">Ver todos</a>
+      <a class="links" href="#">Ver todos</a>
+
+      <!-- Estas son cada una de las tarjetas mostradas, usando flex -->
+
     <div class="container card-cards-container">
+
       <div class="card">
-        <div class="card-image-container reforma-norte"><label class="sale-tag">venta</div>
+        <div class="card-image-container depa-01"><label class="card-tag-sale">Venta</div>
         <div class="">
           <p class="price">U$D 99,000</p>
           <h3 class="description">Departamento en Reforma Norte Coto privado + seguridad.</h3>
-          <p class="card-perks">2 Dormitorios. 2 Baños Ind. 280mts2</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <p class="card-perks">2 Dormitorios l 2 Baños Ind l 280mts2</p>
+          <a href="#" class="btn btn-primary">Ver detalles</a>
         </div>
       </div>
-      <div class='card' >
-        <div class="card-image-container reforma-sur"></div>
-        <div class="card-body">
-          <h2 class="card-title ">Card title</h2>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+
+      <div class="card" >
+        <div class="card-image-container depa-02"><label class="card-tag-rent">Renta</div>
+        <div class="">
+          <p class="price">U$D 45,000</p>
+          <h3 class="description">Departamento en coto privado en calle Yucatán.</h3>
+          <p class="card-perks">3 Dormitorios  l  1 Baños Ind.  l  230mts2</p>
+          <a href="#" class="btn btn-primary">Ver detalles</a>
         </div>
       </div>
-      <div class='card' >
-        <div class="card-image-container reforma-este"></div>
-        <div class="card-body">
-          <h2 class="card-title ">Card title</h2>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+
+      <div class="card" >
+          <div class="card-image-container depa-03"><label class="card-tag-sale">Venta</div>
+          <div class="">
+            <p class="price">U$D 25,000</p>
+            <h3 class="description">Loft listo para tu descanso en el corazón de la Condesa.</h3>
+            <p class="card-perks">4 Dormitorios  l  3 Baños Ind.  l  640mts2</p>
+            <a href="#" class="btn btn-primary">Ver detalles</a>
+          </div>
         </div>
-      </div>
-      <div class='card' >
-        <div class="card-image-container reforma-oeste"></div>
-        <div class="card-body">
-          <h2 class="card-title ">Card title</h2>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+
+      <div class="card" >
+          <div class="card-image-container depa-04"><label class="card-tag-rent">Renta</div>
+          <div class="">
+            <p class="price">U$D 19,999</p>
+            <h3 class="description">Penthouse en la Roma, totalmente equipado.</h3>
+            <p class="card-perks">2 Dormitorios  l  3 Baños Ind.  l  580mts2</p>
+            <a href="#" class="btn btn-primary">Ver detalles</a>
+          </div>
         </div>
-      </div>
+
     </div>
+  <section class="why-us">
+    <div class="banner">
+      <p class="quotes-mob"> Nosotros te <span class="highlight-text-blue"> brindamos un servicio personalizado </span>  y de calidad para ayudarte con tu búsqueda inmobiliaria. Si necesitas asistencia o tienes preguntas, siéntete libre de contactarnos.
+      </p>
+    </div>
+
+
+  </section>
 
   </section>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>

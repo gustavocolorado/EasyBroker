@@ -5,6 +5,7 @@
   height: 21px;
   width: 151px;
 }
+
 .hamburger-icon {
   background-image: url(assets/icons/hamburger-icon@2x.png);
   background-repeat: no-repeat;
@@ -51,13 +52,22 @@ button:focus{
   line-height: 32px;
 }
 
-.highlight-text {
+.highlight-text-light {
   padding: 0px 10px;
   height: 32px;	width: 80px;
   border-radius: 3px;
   background-color: #7794CB;
   background-color: rgba(119,148,203,0.8);
 }
+
+.highlight-text-blue {
+  color: #ffffff;
+  padding: 0px 10px;
+  height: 32px;	width: 80px;
+  border-radius: 3px;
+  background-color: #205596;
+}
+
 .search-container {
   margin-top: 24px;
   height: 48px;	width: 100%;
@@ -93,34 +103,89 @@ button:focus{
   border: none;
   outline: none;
   height: 48px;
-  width: 50px;	border-radius: 0 5px 5px 0;	background-color: #177DF4;
+  width: 50px;
+  border-radius: 0 5px 5px 0;
+  background-color: #177DF4;
 }
 .subtitle {
   text-align: left;
   margin-left: 16px;
-  margin-top: 24px;
+  margin-top: 16px;
   height: 32px;	width: 280px;
   color: #071B21;
-  font-family: "Nunito Sans";	font-size: 24px;
+  font-family: "Nunito Sans";
+  font-size: 24px;
   font-weight: bold;
   line-height: 32px;
 
 }
 .links {
   margin-left: 16px;
-  font-family: "nunito Sans"; font-size: 16px; text-decoration: underline;
+  font-weight: bold;
+  font-family: "nunito Sans";
+  font-size: 16px;
+  text-decoration: underline;
 }
 
 .description {
-  font-family: "nunito Sans"; font-size: 16px; text-align: left; font-weight: 600;
+  font-family: "nunito Sans";
+  font-size: 16px;
+  text-align: left;
+  font-weight: 600;
+}
+
+.price {
+  margin-top: 10px;
+  margin-bottom: 8px;
+  color: #205596;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.card-tag-sale {
+  float: right;
+  background-color: #177DF4;
+  color: #FFFFFF;
+  border-radius: 5px;
+  padding: 3px 15px;
+  margin: 12px;
+  font-family: "nunito Sans";
+  font-size: 12px;
+  text-align: center;
+  font-weight: 800;
+}
+
+.card-tag-rent {
+  float: right;
+  background-color: #049372;
+  color: #FFFFFF;
+  border-radius: 5px;
+  padding: 3px 15px;
+  margin: 12px;
+  font-family: "nunito Sans";
+  font-size: 12px;
+  text-align: center;
+  font-weight: 800;
+}
+
+.card-perks {
+  color: #818181;
+  font-family: "nunito Sans";
+  font-size: 12px;
+  text-align: left;
+  font-weight: 600;
 }
 
 .card {
   flex: 0 0 100%;
   margin-top: 16px;
   border: none;
-
 }
+
+.btn-primary {
+  width: 100%;
+}
+
 @media only screen and (min-width: 768px) {
   .card {
     flex: 0 0 calc(50% - 15px);
@@ -143,21 +208,45 @@ button:focus{
   justify-content: space-between;
 }
 
-
-.card-image-container.reforma-norte {
+.card-image-container.depa-01 {
   background-image: url(./assets/images/departamento-01@2x.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.card-image-container.reforma-sur {
+.card-image-container.depa-02 {
   background-image: url(./assets/images/departamento-02@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.card-image-container.reforma-este {
+.card-image-container.depa-03 {
   background-image: url(./assets/images/departamento-03@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.card-image-container.reforma-oeste {
+.card-image-container.depa-04 {
   background-image: url(./assets/images/departamento-04@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner {
+  background-image: url(./assets/images/bg_playa@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 220px;
+}
+
+.why-us .quotes-mob {
+  margin-top: 32px;
+  text-align: center;
+  padding: 32px 16px;
+  color: #FFFFFF;
+  font-family: "Nunito Sans";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 32px;
 }
